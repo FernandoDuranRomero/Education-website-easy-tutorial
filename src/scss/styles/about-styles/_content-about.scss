@@ -1,0 +1,54 @@
+.about-us{
+     width: 80%;
+     margin: auto;
+     padding-top: 8rem;
+     padding-bottom: 5rem;
+
+    .row-about-us{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+    }
+
+    .about-us-col{
+        flex-basis: 48%;
+        padding: 3rem .2rem;
+
+        img{
+            width: 100%;
+        }
+
+        h1{
+            padding-top: 0;
+        }
+
+        p{
+            padding: 1.5rem 0 2.5rem;
+        }
+
+        .hero-btn-about{
+            display: inline-block;
+            text-decoration: none;
+            color: #f44336;
+            border: 1px solid #f44336;
+            padding: 1.2rem 3.4rem;
+            font-size: 1.3rem;
+            background: transparent;
+            position: relative;
+            cursor: pointer;
+            transition: 0.7s;
+    
+            &:hover{
+                border: 1px solid #f44336;
+                background: #f44336;
+                color: azure;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .row-about-us{
+        flex-direction: column;
+    }
+}

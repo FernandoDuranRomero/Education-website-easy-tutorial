@@ -1,0 +1,53 @@
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5rem;
+
+    h1{
+        font-size: 3.6rem;
+        font-weight: 600;
+    }
+
+    p{
+        color: rgb(34, 33, 33);
+        font-size: 1.4rem;
+        font-weight: 300;
+        padding: 1rem;
+    }
+
+    .row-facilities{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .facilities-col{
+         flex-basis: 31%;
+         border-radius: 1rem;
+         margin-bottom: 5%;
+         text-align: left;
+
+         p{
+             padding: 0;
+         }
+
+         h3{
+             margin-top: 1.6rem;
+             margin-bottom: 1.6rem;
+             text-align: left;
+             font-size: 1.8rem;
+         }
+
+         img{
+             width: 100%;
+             border-radius: 1rem;
+         }
+    }
+}
+
+@media (max-width: 768px){
+    .row-facilities{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,31 @@
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 3rem 0;
+    
+    h4{
+        margin-bottom: 2.5rem;
+        margin-top: 2rem;
+        font-weight: 600;
+        font-size: 2.1rem;
+    }
+
+    p{
+        font-size: 1.3rem;
+    }
+
+    .fa-heart{
+        color: #f44336;
+        font-size: 1.4rem;
+    }
+
+    .icons-footer{
+        i{
+            color: #f44336;
+            margin: 0 1.3rem;
+            cursor: pointer;
+            padding: 1.8rem 0;
+            font-size: 1.7rem;
+        }
+    }
+}
